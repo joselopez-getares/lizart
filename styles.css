@@ -142,15 +142,14 @@ p {
   font-weight: 800;
 }
 
-.brand-mark {
-  width: 42px;
-  height: 42px;
-  display: grid;
-  place-items: center;
-  border-radius: 12px;
-  color: var(--bg);
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  box-shadow: var(--shadow);
+.brand-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 4px;
+  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.28);
 }
 
 .brand-text {
@@ -253,6 +252,22 @@ p {
 .panel-card {
   padding: 2rem;
 }
+
+.hero-logo {
+  margin: 0 0 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-logo img {
+  width: min(100%, 270px);
+  border-radius: 22px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(241, 247, 255, 0.92));
+  padding: 0.8rem;
+  border: 1px solid rgba(110, 168, 254, 0.26);
+  box-shadow: 0 20px 40px rgba(6, 18, 36, 0.35);
+}
+
 
 .panel-card h2 {
   margin-bottom: 0.7rem;
