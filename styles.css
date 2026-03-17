@@ -364,6 +364,41 @@ p {
   color: var(--text-soft);
 }
 
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.legal-main {
+  padding: 7rem 0 4rem;
+}
+
+.legal-card {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.legal-card h1 {
+  max-width: none;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.legal-card h2 {
+  margin-top: 2rem;
+  font-size: 1.35rem;
+}
+
+.legal-card p {
+  margin-bottom: 0.9rem;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(24px);
@@ -421,5 +456,11 @@ p {
   .footer-inner {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
   }
 }
